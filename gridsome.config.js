@@ -17,7 +17,28 @@ if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss())
 module.exports = {
   siteName: 'Forging Keys',
   siteDescription: 'A Keyforge Blog',
-  plugins: [],
+
+  plugins: [
+    {
+      use: '@gridsome/vue-remark',
+      options: {
+        typeName: 'Post', // Required
+        baseDir: './posts', // Where .md files are located
+        pathPrefix: '/posts', // Add route prefix. Optional
+        template: './src/templates/Post.vue', // Optional
+
+        plugins: [
+          '@gridsome/remark-prismjs'
+        ]
+
+      }
+    },
+    {
+      use: `gridsome-plugin-netlify-cms`,
+      options: {
+        publicPath: `/admin`
+      }
+    },],
   css: {
     loaderOptions: {
       postcss: {
