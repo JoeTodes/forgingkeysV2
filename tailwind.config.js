@@ -12,6 +12,9 @@ module.exports = {
       colors: {
         'accent-blue': '#006A7A',
         'block-yellow': '#F2C94C'
+      },
+      borderRadius: {
+        'xl': '1rem'
       }
     }
   },
