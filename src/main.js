@@ -4,6 +4,7 @@ require('~/main.css')
 import DefaultLayout from '~/layouts/Default.vue'
 import Card from '~/components/Card.vue'
 import BigCard from '~/components/BigCard.vue'
+import XCards from '~/components/XCards.vue'
 import 'prismjs/themes/prism-tomorrow.css'
 
 export default function (Vue, {
@@ -15,6 +16,7 @@ export default function (Vue, {
   Vue.component('Layout', DefaultLayout)
   Vue.component('Card', Card)
   Vue.component('BigCard', BigCard)
+  Vue.component('XCards', XCards)
   head.link.push({
     rel: 'stylesheet',
     href: 'https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900'
