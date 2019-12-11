@@ -3,7 +3,7 @@
         <span class="text-accent-blue font-bold">{{name}}</span>
         <div
             :class="{'hover-left':!isLeft, 'hover-right':isLeft}"
-            class="absolute w-48 sm:w-64 whitespace-no-wrap invisible group-hover:visible"
+            class="z-50 absolute w-48 sm:w-64 whitespace-no-wrap invisible group-hover:visible"
         >
             <img :src="img" />
         </div>
@@ -22,8 +22,8 @@ export default {
         };
     },
     mounted: function() {
-        var el = document.getElementById("hovercard");
-        this.isLeft = el.offsetLeft > window.innerWidth / 2 ? false : true;
+        this.isLeft =
+            this.$el.offsetLeft > window.innerWidth / 2 ? false : true;
     },
     computed: {
         img: function() {
