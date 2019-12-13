@@ -19,9 +19,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="flex flex-col sm:flex-row">
+                <div class="flex flex-col sm:flex-row border-l border-b border-r border-gray-400">
                     <div class="sm:w-1/3" v-for="(house, index) in houses" :key="index">
-                        <div class="font-default text-center">{{house.name}}</div>
+                        <div class="font-default font-bold text-center">{{house.name}}</div>
                         <div class="flex sm:flex-col flex-row flex-wrap">
                             <div
                                 class="w-1/2 sm:w-auto flex justify-center sm:justify-start items-center"
@@ -29,9 +29,8 @@
                                 :key="index"
                                 v-show="card.house==house.name"
                             >
-                                <span class="sm:visible invisible">-</span>
                                 <Card
-                                    class="font-default text-center sm:text-left text-xs md:text-sm"
+                                    class="mb-1 mx-2 font-default text-center sm:text-left text-xs md:text-sm"
                                     :name="card.card_title"
                                 />
                             </div>

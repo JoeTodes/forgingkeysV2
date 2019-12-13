@@ -1,5 +1,5 @@
 <template>
-    <span id="hovercard" class="relative group">
+    <span class="relative group">
         <span class="text-accent-blue font-bold">{{name}}</span>
         <div
             :class="{'hover-left':!isLeft, 'hover-right':isLeft}"
