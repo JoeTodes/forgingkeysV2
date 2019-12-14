@@ -2,7 +2,7 @@
     <Layout>
         <h1>{{$page.post.title}}</h1>
         <VueRemarkContent />
-        <div class="h-32"></div>
+        <Comments class="mt-16" />
     </Layout>
 </template>
 
@@ -17,6 +17,6 @@ query Post ($id: ID!) {
 <style>
 p > img {
     max-height: 32rem;
-    @apply mx-auto shadow-md;
+    @apply mx-auto shadow-md my-4;
 }
 </style>
