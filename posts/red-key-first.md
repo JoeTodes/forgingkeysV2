@@ -1,6 +1,6 @@
 ---
 title: Red Key First
-date: 2019-12-9
+date: 2019-12-09
 excerpt: It’s important to try something new. As someone who has played Magic the Gathering for a long time (seven years) I admit I was skeptical about KeyForge. It seemed too simple...
 ---
 

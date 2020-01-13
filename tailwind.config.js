@@ -20,6 +20,8 @@ module.exports = {
   },
   variants: {
     visibility: ['responsive', 'group-hover'],
+    borderColor: ['responsive', 'hover', 'focus', 'group-hover'],
+    textColor: ['responsive', 'hover', 'focus', 'group-hover']
 
   },
   plugins: []
