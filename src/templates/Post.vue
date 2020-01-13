@@ -19,4 +19,17 @@ p > img {
     max-height: 32rem;
     @apply mx-auto shadow-md my-4;
 }
+
+h1 {
+    @apply font-default font-extrabold text-3xl my-4 uppercase;
+}
+
+p {
+    @apply font-copy tracking-wider;
+}
+
+h2,
+h3 {
+    @apply font-default font-bold text-2xl my-2;
+}
 </style>

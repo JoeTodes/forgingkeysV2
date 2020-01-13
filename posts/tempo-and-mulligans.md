@@ -1,7 +1,7 @@
 ---
 title: Tempo and Mulligans
 date: 2019-06-09
-excerpt: I have been thinking on mulligans lately and how to best define when to do so and when to keep. Keyforge allows you to freely toss away your hand and grab a new one, minus one card of course, in hopes of a better hand. So why don’t I see that many people using their free mulligan? Why do I often play my one card out first turn and pass to have my opponent play one or two mediocre cards after they’ve kept their full mitt of 6?...
+author: unzinc
 ---
 
 I have been thinking on mulligans lately and how to best define when to do so and when to keep. Keyforge allows you to freely toss away your hand and grab a new one, minus one card of course, in hopes of a better hand. So why don’t I see that many people using their free mulligan? Why do I often play my one card out first turn and pass to have my opponent play one or two mediocre cards after they’ve kept their full mitt of 6?

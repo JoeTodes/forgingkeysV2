@@ -95,10 +95,7 @@ export default {
 
                     this.ready = true;
                 })
-                .catch(err => {
-                    // handle error
-                    console.log(err);
-                });
+                .catch(err => {});
         }
     }
 };

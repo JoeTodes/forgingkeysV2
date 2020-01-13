@@ -1,7 +1,7 @@
 ---
 title: Buying Yourself Another Turn
 date: 2018-12-31
-excerpt: This past Saturday I had the privilege of playing in a local sealed event. The event was made up of 12 people, was 4 rounds of 35 mins each, and cut to top 4 to play for the fancy Wild Wormhole playmat. Opening my deck I thought I had a fighting chance to win the playmat, however I came up short due to some, perhaps, costly misplays that could have went the other way. I didn’t win the playmat, however learned some more valuable lessons about how to better play KeyForge...
+author: unzinc
 ---
 This past Saturday I had the privilege of playing in a local sealed event. The event was made up of 12 people, was 4 rounds of 35 mins each, and cut to top 4 to play for the fancy <Card name="Wild Wormhole"/> playmat. Opening my deck I thought I had a fighting chance to win the playmat, however I came up short due to some, perhaps, costly misplays that could have went the other way. I didn’t win the playmat, however learned some more valuable lessons about how to better play KeyForge.
 <DeckList name="Dyrfinna, Silver Vortex Dignitary"/>

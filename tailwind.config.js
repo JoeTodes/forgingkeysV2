@@ -7,7 +7,8 @@ module.exports = {
         'halfxl': '18rem'
       },
       fontFamily: {
-        'default': ['Montserrat']
+        'default': ['Montserrat'],
+        'copy': ['Lato']
       },
       colors: {
         'accent-blue': '#006A7A',
