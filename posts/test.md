@@ -1,6 +1,7 @@
 ---
 title: Testing Out The Card Viewer
 date: 2018-10-10T00:00:00.000Z
+author: jobin
 ---
 Ok let's start out with a decklist:
 

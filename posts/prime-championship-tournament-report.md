@@ -1,7 +1,7 @@
 ---
 title: Prime Championship Tournament Report
 date: 2019-11-28
-excerpt: I get so excited for competitive play. High level tournaments where everyone is bringing their best deck and playing tight. Keyforge becomes super interesting and very intriguing when the outcome of each game relies on every gameplay decision players make. When the decks are so good that each turn has multiple lines of play and it's up to the player to solve the puzzle on which line is going to put you farthest ahead of your opponent at the end of your turn. The Keyforge Prime Championship at Metal Galaxy in Calgary, AB on November 23 was no different. 16 players with a variety of premier decks from all sets. 5 rounds of engaging Keyforge play with a cut to top 8. And I won it! ...
+author: unzinc
 ---
 ## FIRST PLACE!
 

@@ -1,7 +1,7 @@
 ---
 title: Playing To The Board State
 date: 2019-02-20
-excerpt: This past weekend I brought my Horsey deck to a chainbound Archon tournament. I don’t think it’s my most powerful deck but it sure is fun to play with. There are many intricate combos in the deck and ways to control the game in my favour. But the deck has a high demand on sequencing and is quite unforgiving if I play cards out of order. I think the deck is also quite delicate in the way it can be easily beat if the opponent also takes due care to play their cards properly and analyze the entire board state a play in their favour. Such advantage over my deck takes place by analyzing the board state and playing slightly out of the normal...
+author: unzinc
 ---
 This past weekend I brought my Horsey deck to a chainbound Archon tournament. I don’t think it’s my most powerful deck but it sure is fun to play with. There are many intricate combos in the deck and ways to control the game in my favour. But the deck has a high demand on sequencing and is quite unforgiving if I play cards out of order. I think the deck is also quite delicate in the way it can be easily beat if the opponent also takes due care to play their cards properly and analyze the entire board state a play in their favour. Such advantage over my deck takes place by analyzing the board state and playing slightly out of the normal.
 <DeckList name="Litbosset of the Scribe's School"/>
