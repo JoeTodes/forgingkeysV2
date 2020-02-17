@@ -51,6 +51,7 @@ export default {
     data: function() {
         return {
             ready: false,
+            parsedName: "",
             response: {},
             properName: "",
             cards: [],
@@ -63,39 +64,43 @@ export default {
         };
     },
     created: function() {
-        var parsedName = this.name.toLowerCase().replace(/ /g, "%20");
-        parsedName = parsedName.replace(/"/g, "%22");
-        parsedName = parsedName.replace(/,/g, "%2c");
-        this.queryText = "https://www.keyforgegame.com/api/decks/?search=";
-        this.queryText += parsedName;
-        this.queryText += "&links=cards";
+        this.parsedName = this.name.toLowerCase().replace(/ /g, "%20");
+        this.parsedName = this.parsedName.replace(/"/g, "%22");
+        this.parsedName = this.parsedName.replace(/,/g, "%2c");
+        this.parsedName = this.parsedName.replace(/'/g, "%27");
 
-        this.getData();
+        this.$root.$emit("decklist", this.parsedName);
+        this.$root.$on("deckListsGot", () => {
+            this.get();
+        });
     },
+
     methods: {
-        getData: function() {
-            axios
-                .get(this.queryText)
-                .then(res => {
-                    this.response = res;
-                    this.properName = res.data.data[0].name;
-                    this.cards = res.data._linked.cards;
-                    this.cardIDs = res.data.data[0]._links.cards;
-                    this.houses = res.data._linked.houses;
-                    this.id = res.data.data[0].id;
-                    this.expansion = res.data.data[0].expansion;
+        get: function() {
+            var index = this.$parent.$parent.$parent.$parent.deckNames.indexOf(
+                this.parsedName
+            );
+            console.log(index);
 
-                    this.cardIDs.forEach(id => {
-                        this.cards.forEach(card => {
-                            if (id == card.id) {
-                                this.finalCards.push(card);
-                            }
-                        });
-                    });
+            this.response = this.$parent.$parent.$parent.$parent.deckData[
+                index
+            ];
+            this.properName = this.response.data.data[0].name;
+            this.cards = this.response.data._linked.cards;
+            this.cardIDs = this.response.data.data[0]._links.cards;
+            this.houses = this.response.data._linked.houses;
+            this.id = this.response.data.data[0].id;
+            this.expansion = this.response.data.data[0].expansion;
 
-                    this.ready = true;
-                })
-                .catch(err => {});
+            this.cardIDs.forEach(id => {
+                this.cards.forEach(card => {
+                    if (id == card.id) {
+                        this.finalCards.push(card);
+                    }
+                });
+            });
+
+            this.ready = true;
         }
     }
 };

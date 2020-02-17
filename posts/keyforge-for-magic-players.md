@@ -4,7 +4,7 @@ date: 2019-07-09
 author: unzinc
 ---
 
-# KEYFORGE FOR MAGIC PLAYERS
+
 
 In 1994 Richard Garfield designed what would become the world’s first collectable card game. This game is called Magic the Gathering and although Mr. Garfield designed the game there were many unforseen avenues the game took that Garfield didn’t have in mind for the game. For one, players could build their own decks freely, there was no rule against it. Originally Richard Garfield thought that players would just go out and buy a starter deck and simply use that deck through all their games. These starter decks were made up of random cards and part of the joy and fun of the game would come from exploring your new random assortment of cards each game. However, this wasn’t the case. In fact, players started buying cases (of cards) to accumulate the most powerful cards. Few cards were better than others so players began making decks using many copies, and sometimes only copies, of these more powerful cards. A secondary market soon emerged for cards so that players could build powerful decks to beat their friends with and win tournaments. With supply of rare cards at a minimum and demand high the market price for some of these cards soared. Players who couldn’t afford these premium cards would always be at a disadvantage and those who could afford to pay cards’ high prices had a huge advantage (and still do to this day). 
 ![For just $10,000 you can win the game!](/uploads/black-lotus.jpg)

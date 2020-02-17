@@ -10,7 +10,7 @@
         <div class="flex w-full items-baseline justify-between -mt-1">
           <div
             class="text-accent-blue leading-tight text-left text-xl font-default font-medium tracking-wider"
-          >by unzinc</div>
+          >by {{author}}</div>
           <div class="text-black text-xl font-default text-right font-medium">{{fDate}}</div>
         </div>
       </div>
