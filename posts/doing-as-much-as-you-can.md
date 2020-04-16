@@ -2,6 +2,8 @@
 title: Doing As Much As You Can
 date: 2018-12-10
 author: unzinc
+coverimg: >-
+  https://res.cloudinary.com/forgingkeys/image/upload/v1582756265/Cover%20Images/001_lq9fcp.png
 ---
 The uniqueness of this game and creative card combos [aliteration!] continue to impress me. A player must find the line to victory using a unique series of cards in the deck. My favourite part about this game is that, for each deck, the path to victory isn’t always the same. I’ve finished the game, or created a pile of Aember, from some cool combos in a deck and don’t see them again for several games.
 <br/>

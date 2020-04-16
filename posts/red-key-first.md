@@ -2,6 +2,8 @@
 title: Red Key First
 date: 2019-12-09
 author: EHawther
+coverimg: >-
+  https://res.cloudinary.com/forgingkeys/image/upload/v1582756265/Cover%20Images/001_lq9fcp.png
 ---
 
 It’s important to try something new. As someone who has played Magic: the Gathering for a long time (seven years) I admit I was skeptical about KeyForge. It seemed too simple. However, I wanted to reconnect with some buddies who recently switched over to KeyForge. As a card game where you cannot build your deck, where the cards are always the same, and where there is no real collecting to speak of, KeyForge did not match my typical hobby appeal (tcg’s, table top miniatures, and LEGO). 

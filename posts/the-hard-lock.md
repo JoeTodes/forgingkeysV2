@@ -2,6 +2,8 @@
 title: The Hard Lock
 date: 2018-12-13
 author: unzinc
+coverimg: >-
+  https://res.cloudinary.com/forgingkeys/image/upload/v1582756265/Cover%20Images/001_lq9fcp.png
 ---
 Last night I went over to my friend’s house to play in our weekly tournament which has been happening since pre-release which is pretty awesome. Clearly no one in my friend group is bored of this game yet and hopefully this post should explain why. 
 <br/>

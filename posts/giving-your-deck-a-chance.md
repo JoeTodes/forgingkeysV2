@@ -2,6 +2,8 @@
 title: Giving Your Deck A Chance
 date: 2018-12-27
 author: unzinc
+coverimg: >-
+  https://res.cloudinary.com/forgingkeys/image/upload/v1582756265/Cover%20Images/001_lq9fcp.png
 ---
 Back in November I was lucky enough to live in a city with a store that hosted a KeyForge pre-release. I did not do much previewing of the game before attending and went in pretty cold. I played a few card games over the years and was excited to try KeyForge as I had a bunch of friend’s who were also interested in playing the game. Over the months prior I had been losing interest in my previous game of choice, Magic the Gathering, and had been dabbling a little in Eternal Card Game which wasn’t completely filling the gap. I was excited to give KeyForge a go as, from what I heard about it, sounded like the best aspects of Magic the Gathering that I enjoyed, especially Commander and Ante League.
 <br/>

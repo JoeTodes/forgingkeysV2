@@ -1,7 +1,7 @@
 <template>
   <div class="group p-1 sm:p-2">
     <div class="border-black border-2 group-hover:border-accent-blue p-1 sm:p-2">
-      <g-image class="w-full" src="~/assets/images/125_cropped.png"></g-image>
+      <g-image class="w-full" :src="cover"></g-image>
       <div class="bg-accent-blue w-full h-4"></div>
       <div class="bg-white w-full pt-1 sm:pt-2 -mb-1">
         <div
@@ -20,7 +20,7 @@
 
 <script>
 export default {
-  props: ["title", "date", "author"],
+  props: ["title", "date", "author", "cover"],
   computed: {
     fDate() {
       var day = new Date(this.date);

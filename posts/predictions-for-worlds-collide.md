@@ -2,6 +2,8 @@
 title: Predictions for Worlds Collide
 date: 2019-10-30
 author: unzinc
+coverimg: >-
+  https://res.cloudinary.com/forgingkeys/image/upload/v1582756265/Cover%20Images/001_lq9fcp.png
 ---
 
 A few people where I live in Canada managed to acquire Worlds Collide decks early so I’ve thankfully been able to join in on the fun our neighbours to the south have found at Target. The decks seem like they can be quite powerful with the neat new creature interactions and new mechanics. I believe these decks will totally reshape the current meta and I will explain why. Here’s a few predictions for the upcoming set!

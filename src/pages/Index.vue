@@ -6,6 +6,7 @@
                     :title="$page.posts.edges[0].node.title"
                     :date="$page.posts.edges[0].node.date"
                     :author="$page.posts.edges[0].node.author"
+                    :cover="$page.posts.edges[0].node.coverimg"
                 />
             </div>
 
@@ -24,6 +25,7 @@
                     :title="edge.node.title"
                     :date="edge.node.date"
                     :author="edge.node.author"
+                    :cover="edge.node.coverimg"
                 />
             </g-link>
         </div>
@@ -39,6 +41,7 @@ query{
         date
         path
         author
+        coverimg
         
       }
     }
