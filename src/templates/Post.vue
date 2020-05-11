@@ -52,7 +52,8 @@ export default {
         async function getAllDecks(decks) {
             const allThePromises = decks.map(deck => {
                 const query =
-                    "https://www.keyforgegame.com/api/decks/?search=" +
+                    //"https://www.keyforgegame.com/api/decks/?search=" +   //for dev builds
+                    "/api/decks/?search=" + //for live site
                     deck +
                     "&links=cards";
                 return throttleLimitedGetDeckData(query);
