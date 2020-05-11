@@ -2,12 +2,14 @@
     <Layout>
         <div class="relative">
             <div class="w-full sm:w-8/12">
+            <g-link class="w-full sm:w-1/2 lg:w-1/3" :to="$page.posts.edges[0].node.path">
                 <FeatureCard
                     :title="$page.posts.edges[0].node.title"
                     :date="$page.posts.edges[0].node.date"
                     :author="$page.posts.edges[0].node.author"
                     :cover="$page.posts.edges[0].node.coverimg"
                 />
+            </g-link>
             </div>
 
             <div class="hidden sm:block w-4/12 absolute top-0 right-0 bottom-0">
