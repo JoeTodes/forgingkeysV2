@@ -29,7 +29,7 @@ The first thing to consider is whether or not you are playing second or first. T
 <br/>
 Artifacts aren’t the only great turn 1 plays. The card advantage engines in cards like <Card name="Mother"/> and <Card name="Tocsin"/>, or cards like <Card name="Ember Imp"/> that pigeon hole your opponent, that are going to work for you right away are great turn one plays. For one, these cards put the opponent at an immediate disadvantage and having them out on the first turn maximizes the juicy card returns. The dream situation is that your opponent may not have removal for these hay maker cards, which means you get maximum profits! If they do have removal, it may not be in the house they were planning on playing. I always like throwing my opponent a curve ball in game. Making them choose the tough decision – Use their <Card name="Poison Wave"/> to kill one creature first turn or call a different house and only play two cards because of <Card name="Ember Imp"/> – is a great path to success.
 
-<XCards :names="['John Smyth', 'Grabber Jammer']" caption="great tempo combo"/>
+<XCards names="John Smyth,Grabber Jammer" caption="great tempo combo"/>
 
 ## Evaluate House Distribution.
 
@@ -59,7 +59,7 @@ Also, if you know your opponent’s deck and understand what it is trying to do 
 <br/>
 I hope with these few insights about when to mulligan you can get more wins. If you end up with a worst hand, which is rare, you can always blame your loss on variance.
 
-<XCards :names="['positron bolt','quixo','library of bab', 'mother','phase shift', 'dimension door', 'crystal hive']" caption="I won because of my skill!"/>
+<XCards names="positron bolt,quixo,library of bab,mother,phase shift,dimension door,crystal hive" caption="I won because of my skill!"/>
 
-<XCards :names="['firespitter','bait and switch','warsong', 'gateway to dis','gongoozle']" caption="I lost because of variance"/>
+<XCards names="firespitter,bait and switch,warsong,gateway to dis,gongoozle" caption="I lost because of variance"/>
 

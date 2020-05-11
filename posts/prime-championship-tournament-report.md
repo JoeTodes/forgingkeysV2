@@ -16,7 +16,7 @@ It wasn't easy though. There were many turns I was sitting there mid-game, stari
 
 My first deck of choice was the one that I won store championships with recently. Phisk “Windchill” Zouchyy is an AoA deck that plays a midrange/control style of game. If you ever played Jund in Modern format in Magic the Gathering I would most compare it to that. It has answers to everything and each house can control all aspects of the game. I was undefeated with it at the Store Championships and running at about a 95% win rate up until Worlds Collide release. Enter Worlds Collide and my first encounter with the Dinosaurs gave it a loss. Game two vs WC I barely snuck out a win with a timely <Card name='Miasma'/>. I was beginning to think Phisk was feeling its “Windchill” and gone cold in the new meta. 
 
-<XCards :names="['tribute','sic semper']" caption="Sic Combo Bud"/>
+<XCards names="tribute,sic semper" caption="Sic Combo Bud"/>
 
 I had opened a pretty solid Worlds Collide deck which features Saurians: _**Cragjilli Kim-Dolan, Conductor**_. I went 3-0 on release weekend chainbound with it and was having some success in Competitive play on The Crucible. It has some neat Dino combos in it, including the overly-powered feels-disgusting-to-pull-off <Card name='Tribute'/> into <Card name='Sic Semper Tyrannosaur'/> combo. It also has decent board control with <Card name='Harbinger of Doom'/> and <Card name='Hysteria'/>, key control with two <Card name='The Evil Eye'/>, two <Card name='Hock'/> to control artifacts, and some alright Aember control. The deck looks great and feels great but I was rusty with it and the new cards. I think I beat myself more than a few times playing with it. I would play cards in the wrong sequence, or miss card text, or misplay in general. I didn't have the experience with this deck as I had with Phisk. I couldn't risk losing to myself through inexperience. 
 <br/>
@@ -28,7 +28,7 @@ I tried tax style decks, rush decks, combo decks while still playing some games 
 <br/>
 I arrived at the store early to get some [practice games](https://timeshapers.com/2019/11/13/warm-up-games/) in. I ended up talking to all the players there which I found calmed my nerves somewhat. We ended up with 16 players for the tournament which meant 5 rounds and a cut to top 8. I ended up playing half a practice round with a fun deck before the player meeting started and the pairings sheet went up. 
 
-<XCards :names="['chain gang','subtle chain']" caption="Not so subtle when there's three"/>
+<XCards names="chain gang,subtle chain" caption="Not so subtle when there's three"/>
 
 ## Game 1 - vs Keiran
 
@@ -70,7 +70,7 @@ I looked at Lane's decklist and knew I might have a problem, but, mathematically
 <br/>
 <br/>
 \[W3 - L1]
-<XCards :names="['john smyth','grabber jammer']" caption="As featured in ESPN's tempo top plays of the day"/>
+<XCards names="john smyth,grabber jammer" caption="As featured in ESPN's tempo top plays of the day"/>
 
 ## Game 5 - vs Matt
 
@@ -81,7 +81,7 @@ I played against this deck a week earlier at a chainbound so knew it was powerfu
 <br/>
 \[W4 - L1]
 
-<XCards :names="['Book of LeQ','navigator ali']" caption="Two houses a turn, no problem"/>
+<XCards names="Book of LeQ,navigator ali" caption="Two houses a turn, no problem"/>
 
 ## Top 8 - vs Justin
 
@@ -98,7 +98,7 @@ I played shadows the next few turns and kept him off the second key, after he fo
 <br/>
 I started picking up steam again but I knew I had another Tribute to deal with to forge my second key PLUS the Evil Eye that was now in his hand. I think I ended up drawing into <Card name='Tyxl Beambuckler'/> to finally move the Brutodon Auxiliary and wipe out his Senator Shrix (now with complimentary 2 Aember for me). The next few turns I focused on a line that would keep Justin in off his second key while putting me closer to Aember bursting up past 9 Aember so that I could forge even with an Evil Eye play. I had to ignore his Navigator Ali, Book of LeQ combo for a few turns even, which gave him a lot of value, but Phisk had the answers, I knew what remained in my deck. I managed to get up to 11 Aember but at the cost of Justin forging his second key with 8 Aember. That turn Justin also dropped two Evil Eyes and got back up to 6 Aember to put him in check for key #3. I still had 11 Aember, and he still had a Tribute.  <Card name='Mindwarper'/> took him off check and my Mars board got me to a safe 15 Aember and the win! Phew!
 
-<XCards :names="['screaming cave','lash of broken dreams']" caption="Take these two if your want to play mono-Dis"/>
+<XCards names="screaming cave,lash of broken dreams" caption="Take these two if your want to play mono-Dis"/>
 
 ## Top 4 - Lane
 
@@ -111,7 +111,7 @@ Secretly, I was hoping Lane would be defeated in the quarter finals as he was th
 <DeckList name="Khan Fordatese Adalbert"/>
 
 Repeat of Round 2 today and Shea mentions to me that he supposes I probably won before the match even started. I've made the mistake many times of going into a match thinking I've won it, over confident, only to get completely blown out because I've let my guard down; I'm treating this match like any other and staying focused. 
-<XCards :names='["overlord greking","collar of subordination"]' name="All your creatures are belong to me"/>
+<XCards names="overlord greking,collar of subordination" name="All your creatures are belong to me"/>
 Turn 1, I've won the dice roll and going first, I play a <Card name='Collector Worm'/>. On Shea's first turn he plays <Card name='Overlord Greking'/> and plays a <Card name='Collar of Subordination'/> on my Collector Worm. On my turn two I play Collar of Subordination of my own on his Overlord Greking, steal it, and attack it into my Collector Worm and bringing it back to Phisk's battleline. I continue on Phisk's Mars plan and Shea is playing out his Dis and Shadows cards. Each time he hit check I had a <Card name='Ronnie Wristclocks'/> in hand to take him off. And he was usually at 7 or more which gave me more value out of my Ronnie Wristclocks. I start pulling ahead in the race and am on two keys and 5 Aember and Shea puts down three <Card name='Batdrone'/> after calling Logos. 
 <br/>
 <br/>

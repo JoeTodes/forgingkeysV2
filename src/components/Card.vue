@@ -1,4 +1,6 @@
 <template>
+
+
     <span class="relative group">
         <span class="text-accent-blue font-bold">{{name}}</span>
         <div
@@ -8,6 +10,7 @@
             <img :src="img" />
         </div>
     </span>
+
 </template>
 
 <script>

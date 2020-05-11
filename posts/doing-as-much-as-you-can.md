@@ -13,7 +13,7 @@ For instance, my 4 Horseman deck, ***Litbosset of the Scribe's School*** contain
 
 So this morning my KeyForge bro LD messages me, 
 
-<XCards :names="['Horseman of Pestilence','Cleansing Wave']"/>
+<XCards names="Horseman of Pestilence,Cleansing Wave"/>
 “Hey Kurt, I just lost in the most ridiculous manner. You’ll never guess!”
 Obnoxiously I reply, “You hit the concede button?”
 <br/>

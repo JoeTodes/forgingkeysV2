@@ -64,6 +64,7 @@ export default {
         };
     },
     created: function() {
+
         this.parsedName = this.name.toLowerCase().replace(/ /g, "%20");
         this.parsedName = this.parsedName.replace(/"/g, "%22");
         this.parsedName = this.parsedName.replace(/,/g, "%2c");

@@ -1,4 +1,6 @@
 <template>
+
+
     <header class="fixed top-0 left-0 w-screen z-20">
         <div class="h-6 bg-accent-blue"></div>
 
@@ -25,6 +27,7 @@
             </nav>
         </transition>
     </header>
+
 </template>
 
 <script>

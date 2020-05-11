@@ -5,7 +5,7 @@
         <div class="flex">
             <div class="mx-auto shadow-md p-4">
                 <div class="flex flex-col sm:flex-row mx-auto">
-                    <div class="p-1 flex-shrink" v-for="name in names" :key="name">
+                    <div class="p-1 flex-shrink" v-for="name in this.newNames" :key="name">
                         <img :src="imgs[name.toLowerCase()]" />
                     </div>
                 </div>
@@ -22,16 +22,21 @@
 import data from "~/assets/data/card_data.json";
 export default {
     //TODO add AOA and WC
-    props: { names: Array, caption: String },
+    props: { names: String, caption: String },
     data: function() {
         return {
-            cotaData: data
+            cotaData: data,
+            newNames: String,
+            imgs: {}
         };
     },
-    computed: {
-        imgs: function() {
-            let urls = {};
-            this.names.forEach(name => {
+    
+    mounted: function(){
+        let urls = {};
+
+            
+            this.newNames = this.names.split(",")
+            this.newNames.forEach(name => {
                 this.cotaData.forEach(card => {
                     if (card.card_title.toLowerCase() == name.toLowerCase()) {
                         urls[name.toLowerCase()] = card.front_image;
@@ -49,8 +54,7 @@ export default {
                     });
                 }
             });
-            return urls;
-        }
+            this.imgs = urls;
     }
 };
 </script>
