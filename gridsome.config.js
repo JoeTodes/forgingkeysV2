@@ -3,14 +3,15 @@
 
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
-const tailwind = require('tailwindcss')
-const purgecss = require('@fullhuman/postcss-purgecss')
 
-const postcssPlugins = [
-  tailwind(),
-]
+//const tailwind = require('tailwindcss')
+//const purgecss = require('@fullhuman/postcss-purgecss')
 
-if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss())
+//const postcssPlugins = [
+  //tailwind(),
+//]
+
+//if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss(require('./purgecss.config.js')))
 
 
 
@@ -19,6 +20,13 @@ module.exports = {
   siteDescription: 'A Keyforge Blog',
 
   plugins: [
+    {
+      use:"gridsome-plugin-tailwindcss",
+      options:{
+        tailwindConfig: './tailwind.config.js'
+      }
+  
+  },
     {
       use: '@gridsome/vue-remark',
       options: {
@@ -42,7 +50,7 @@ module.exports = {
   css: {
     loaderOptions: {
       postcss: {
-        plugins: postcssPlugins,
+        //plugins: postcssPlugins,
       },
     },
   },
