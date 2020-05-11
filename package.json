@@ -1,5 +1,6 @@
 {
-  "name": "forgingkeysV2",
+  "name": "forgingkeysv2",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "build": "gridsome build",
