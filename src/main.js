@@ -32,5 +32,8 @@ export default function (Vue, {
   head.link.push({
     rel: 'stylesheet',
     href: 'https://fonts.googleapis.com/css?family=Lato:400,600,700,800,900'
+  }),
+  head.script.push({
+    src: "https://identity.netlify.com/v1/netlify-identity-widget.js"
   })
 }

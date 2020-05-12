@@ -1,4 +1,5 @@
 <template>
+<div>
     <Layout>
         <div class="relative">
             <div class="w-full sm:w-8/12">
@@ -32,6 +33,18 @@
             </g-link>
         </div>
     </Layout>
+    <script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+</div>
 </template>
 
 <page-query>
@@ -57,7 +70,8 @@ import RollCard from "~/components/RollCard.vue";
 import TwitterRoll from "~/components/TwitterRoll.vue";
 export default {
     metaInfo: {
-        title: "Home"
+        title: "Home",
+        script: [{src: 'https://identity.netlify.com/v1/netlify-identity-widget.js'}]
     },
     components: {
         FeatureCard,
