@@ -1,7 +1,5 @@
 backend:
-  name: github
-  repo: JoeTodes/forgingkeysV2
-  branch: master
+  name: git-gateway
 
 media_library:
   name: cloudinary
