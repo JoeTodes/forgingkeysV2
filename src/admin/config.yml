@@ -1,5 +1,6 @@
 backend:
   name: github
+  repo: JoeTodes/forgingkeysV2
   branch: master
 
 media_library:
