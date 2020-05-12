@@ -45,7 +45,8 @@ module.exports = {
       use: `gridsome-plugin-netlify-cms`,
       options: {
         publicPath: `/admin`,
-        enableIdentityWidget:false
+        enableIdentityWidget:false,
+        htmlPath:'src/admin/index.html'
       }
     },],
   css: {
