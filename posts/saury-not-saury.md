@@ -2,7 +2,7 @@
 title: Saury, not Saury
 date: 2020-02-05T00:00:00.000Z
 author: unzinc
-coverimg: https://res.cloudinary.com/forgingkeys/image/upload/v1582756265/Cover%20Images/001_lq9fcp.png
+coverimg: https://res.cloudinary.com/forgingkeys/image/upload/v1589297882/Cover%20Images/AoA/003_grlqxp.png
 ---
 I have to admit, Saurian is ruining the fun I have in Keyforge. It’s not just because I lose to decks containing Saurian repeatedly. It’s the way I lose. It’s the way their cards interact. It’s the way the Saurian house floods the board and sticks around and is nearly impossible to deal with unless I’m playing a deck with specific cards in it. It’s how I always feel like I’m completely behind in tempo right from the start of the game and even when I have some glimmer of hope on coming back and maybe taking the lead, I’m crushed by a <Card name="Tribute"/>, or one sided board wipe, or a <Card name="City-State Interest"/>, or a stampede of more beefy dinosaurs hitting the board. The house feels bad to play against and it feels dirty to play. 
 
