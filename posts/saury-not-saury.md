@@ -10,6 +10,8 @@ I have to admit, Saurian is ruining the fun I have in Keyforge. It’s not just 
 
 Prior to Worlds Collide, I could pick up almost any deck in my collection and have a fun match. Even my poorer power level decks felt like they had a chance, and felt like I was in the game, if I was able to play tight. I would expect to lose vs better decks but I would have a fun time playing my decks. Enter Saurian (and their closely powered and equally as board flooding and overpowered futuristic friends, the Grand Star Alliance) and the number of decks that I have fun playing went from 30+ (from a collection of around 50 decks) to 5 or less. I cannot simply have a good game unless I have a very fast racing deck or deck filled with board control. Any other deck that plays against Saurian will run into an over-powered wall of impossible to deal with Dinosaurs. Any Aember that I generated will be captured by my opponent’s large board in one form or another. 
 
+
+
 I’m not hating on Aember control. Aember control is great, it keeps the game balanced. However, Saurians go a little over the top. Play capture, reap capture, fight capture, play some actions... capture. One action even captures 4! At first it didn’t feel so bad. I can probably get those capture back at some point right? Wrong. With two cards at common that send Aember on friendly creatures back to the common supply it’s likely your Aember is lost forever. Additionally, your opponent is likely to be able to spend that Aember as if it were in their own pool making the Saurian captures a straight up steal that make any thief in Shadows feel like a low level crook. Feel bad. 
 
 <BigCard name="Centurion stenopius" caption="Play/Fight/Reap: Win the game"/>
