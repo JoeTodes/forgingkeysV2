@@ -45,9 +45,9 @@ What if I want one big card in as a paragraph break with a caption? Just use Big
 
 But what about multiple cards in a row?? Gotcha covered with XCards:
 ```html
-<XCards names="anger,routine job,miasma" caption="wow those are some cards for sure"/>
+<XCards names="anger, routine job, miasma" caption="wow those are some cards for sure"/>
 ````
-<XCards names="anger,routine job,miasma" caption="wow those are some cards for sure"/>
+<XCards names="anger, routine job, miasma" caption="wow those are some cards for sure"/>
 
 If you're using VueJS to power your blog, drop us a line and I'll hook you up with the components!
 

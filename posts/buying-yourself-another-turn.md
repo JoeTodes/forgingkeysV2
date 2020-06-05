@@ -26,7 +26,7 @@ The last game I played was against a player called Bryan. Bryan was 3-0. Undefea
   <br/>
 The game was a grind. Bryan and I were back and forth for the first several turns until I pulled ahead. I had a great Library Access turn where I got lucky and flooded the board with Logos creatures, particularly my new found friends in double <Card name="Spectral Tunneler"/> // <Card name="Ganymede Archivist"/> combo. The next few turns I was in race mode and 100% on Logos as Bryan couldn’t stabilize my strong Library Access turn. Using my sweet combo, I was drawing a two cards a turn and archiving two (Brobnar) a turn. Reaping for 4. Pass. And on board I was ignoring Bryan’s struggle to stabilize and I was winning the race. All was looking good for me to win this match and get into the Top 4.
 
-<XCards names="Spectral tunneler,ganymede archivist" caption="all aboard the combo train!"/>
+<XCards names="Spectral tunneler, ganymede archivist" caption="all aboard the combo train!"/>
  
 Bryan had eventually caught up so I played out all my archived Brobnar to take care of his threats. I’m about to win next turn and Surprise! Bryan plays Hysteria….. 🙁
 

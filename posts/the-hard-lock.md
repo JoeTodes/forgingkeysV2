@@ -31,7 +31,7 @@ With a grin on his face, I know something is up.
 <br/>
 “Untamed!” and he lays down 3 exhausted creatures and plays an action. These particular 4 cards…
 
-<XCards names="dew faerie,snufflegator,witch of the eye,s call"/>
+<XCards names="dew faerie, snufflegator, witch of the eye, s call"/>
 
 
 

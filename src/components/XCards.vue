@@ -35,7 +35,7 @@ export default {
         let urls = {};
 
             
-            this.newNames = this.names.split(",")
+            this.newNames = this.names.split(", ")
             this.newNames.forEach(name => {
                 this.cotaData.forEach(card => {
                     if (card.card_title.toLowerCase() == name.toLowerCase()) {

@@ -10,7 +10,7 @@ The uniqueness of this game and creative card combos \[aliteration!] continue to
 
 So this morning my KeyForge bro LD messages me, 
 
-<XCards names="Horseman of Pestilence,Cleansing Wave"/>
+<XCards names="Horseman of Pestilence, Cleansing Wave"/>
 
 
 “Hey Kurt, I just lost in the most ridiculous manner. You’ll never guess!”
