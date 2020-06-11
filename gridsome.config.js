@@ -21,6 +21,27 @@ module.exports = {
 
   plugins: [
     {
+      use: 'gridsome-plugin-rss',
+      options: {
+        latest:true,
+        contentTypeName: 'Post',
+        feedOptions: {
+          title: 'Forging Keys',
+          feed_url: 'https://forgingkeys.com/rss.xml',
+          site_url: 'https://forgingkeys.com'
+        },
+        feedItemOptions: node => ({
+          title: node.title,
+          url: 'https://forgingkeys.com' + node.path,
+          author: node.author
+        }),
+        output: {
+          dir: './static',
+          name: 'rss.xml'
+        }
+      }
+    },
+    {
       use: '@gridsome/plugin-google-analytics',
       options: {
         id: 'UA-143605661-2'
@@ -32,7 +53,7 @@ module.exports = {
         tailwindConfig: './tailwind.config.js'
       }
   
-  },
+    },
     {
       use: '@gridsome/vue-remark',
       options: {
@@ -54,7 +75,8 @@ module.exports = {
         enableIdentityWidget:false,
         htmlPath:'src/admin/index.html'
       }
-    },],
+    }
+  ],
   css: {
     loaderOptions: {
       postcss: {
