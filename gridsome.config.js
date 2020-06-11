@@ -29,10 +29,12 @@ module.exports = {
           title: 'Forging Keys',
           feed_url: 'https://forgingkeys.com/rss.xml',
           site_url: 'https://forgingkeys.com'
+
         },
         feedItemOptions: node => ({
           title: node.title,
           url: 'https://forgingkeys.com' + node.path,
+          image_url: node.coverimg,
           author: node.author
         }),
         output: {
