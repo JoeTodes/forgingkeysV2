@@ -24,8 +24,8 @@ So what we're going to do is we're going FIFA World Cup style here. 12 Decks, 3 
 
 <DeckList name="The Countess that Greets Toxins"/>
 <DeckList name="Strawphon, Street Seneschal"/>
-<DeckList name="Epicatus's Evil Twin"/>
-<DeckList name="Devaqwerty the Rebel"/>
+<DeckList name="Professor “Nitro” Epicatus’s Evil Twin"/>
+<DeckList name="Devaqwerty the “Rebel”"/>
 
 </br></br>
 
