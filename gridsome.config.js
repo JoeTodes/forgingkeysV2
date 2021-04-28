@@ -8,7 +8,7 @@
 //const purgecss = require('@fullhuman/postcss-purgecss')
 
 //const postcssPlugins = [
-  //tailwind(),
+//tailwind(),
 //]
 
 //if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss(require('./purgecss.config.js')))
@@ -19,11 +19,10 @@ module.exports = {
   siteName: 'Forging Keys',
   siteDescription: 'A Keyforge Blog',
 
-  plugins: [
-    {
+  plugins: [{
       use: 'gridsome-plugin-rss',
       options: {
-        latest:true,
+        latest: true,
         contentTypeName: 'Post',
         feedOptions: {
           title: 'Forging Keys',
@@ -50,11 +49,11 @@ module.exports = {
       }
     },
     {
-      use:"gridsome-plugin-tailwindcss",
-      options:{
+      use: "gridsome-plugin-tailwindcss",
+      options: {
         tailwindConfig: './tailwind.config.js'
       }
-  
+
     },
     {
       use: '@gridsome/vue-remark',
@@ -74,8 +73,17 @@ module.exports = {
       use: `gridsome-plugin-netlify-cms`,
       options: {
         publicPath: `/admin`,
-        enableIdentityWidget:false,
-        htmlPath:'src/admin/index.html'
+        enableIdentityWidget: false,
+        htmlPath: 'src/admin/index.html'
+      }
+    },
+    {
+      use: "gridsome-plugin-service-worker",
+      options: {
+        cacheFirst: {
+          cacheName: "cf-v1",
+          fileTypes: ["image"]
+        }
       }
     }
   ],
