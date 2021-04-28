@@ -16,6 +16,8 @@ So what we're going to do is we're going FIFA World Cup style here. 12 Decks, 3 
 
 ![](https://res.cloudinary.com/forgingkeys/image/upload/v1619579439/DT-Box-T/Ingolf-DTbox.jpg)
 
+![](https://res.cloudinary.com/forgingkeys/image/upload/v1619579367/DT-Box-T/The-Duke-DTbox.jpg)
+
 </br></br>
 
 **GROUP B**
