@@ -1,5 +1,5 @@
 ---
-title: Presenting, the Dar Tidings Display Tournament!
+title: Presenting, the Dark Tidings Display Tournament!
 date: 2021-04-27T18:10:46.363Z
 author: Kurt
 coverimg: https://res.cloudinary.com/forgingkeys/image/upload/c_scale,w_444/v1619577107/Cover%20Images/20210427_202838_xgp8ig.jpg
