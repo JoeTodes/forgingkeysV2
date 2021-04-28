@@ -14,11 +14,7 @@ So what we're going to do is we're going FIFA World Cup style here. 12 Decks, 3 
 
 **GROUP A**
 
-<DeckList name="Jebediah who Pays The Hag"/>
-
-<DeckList name="Nikasha the Crafty"/>
-<DeckList name="The Duke of Far-Sighted Forgery"/>
-<DeckList name="Ingolf W. Starator, the Sixth"/>
+![](https://res.cloudinary.com/forgingkeys/image/upload/v1619579439/DT-Box-T/Ingolf-DTbox.jpg)
 
 </br></br>
 
