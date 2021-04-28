@@ -8,7 +8,9 @@
                 >
                     <div
                         class="text-white text-center sm:text-left text-2xl font-bold font-default"
-                    >{{properName.toUpperCase()}}</div>
+                    >
+                        {{ properName.toUpperCase() }}
+                    </div>
                     <div class="flex flex-row justify-between md:w-1/3">
                         <div
                             v-for="house in houses"
@@ -19,15 +21,23 @@
                         </div>
                     </div>
                 </div>
-                <div class="flex flex-col sm:flex-row border-l border-b border-r border-gray-400">
-                    <div class="sm:w-1/3" v-for="(house, index) in houses" :key="index">
-                        <div class="font-default font-bold text-center">{{house.name}}</div>
+                <div
+                    class="flex flex-col sm:flex-row border-l border-b border-r border-gray-400"
+                >
+                    <div
+                        class="sm:w-1/3"
+                        v-for="(house, index) in houses"
+                        :key="index"
+                    >
+                        <div class="font-default font-bold text-center">
+                            {{ house.name }}
+                        </div>
                         <div class="flex sm:flex-col flex-row flex-wrap">
                             <div
                                 class="w-1/2 sm:w-auto flex justify-center sm:justify-start items-center"
-                                v-for="(card,index) in finalCards"
+                                v-for="(card, index) in finalCards"
                                 :key="index"
-                                v-show="card.house==house.name"
+                                v-show="card.house == house.name"
                             >
                                 <Card
                                     class="mb-1 mx-2 font-default text-center sm:text-left text-xs md:text-sm"
@@ -48,7 +58,7 @@ import axios from "axios";
 
 export default {
     props: ["name"],
-    data: function() {
+    data: function () {
         return {
             ready: false,
             parsedName: "",
@@ -60,16 +70,17 @@ export default {
             houses: [],
             id: "",
             expansion: "",
-            queryText: ""
+            queryText: "",
         };
     },
-    created: function() {
-
+    created: function () {
+        this.parsedName = encodeURIComponent(this.name);
+        /*
         this.parsedName = this.name.toLowerCase().replace(/ /g, "%20");
         this.parsedName = this.parsedName.replace(/"/g, "%22");
         this.parsedName = this.parsedName.replace(/,/g, "%2c");
         this.parsedName = this.parsedName.replace(/'/g, "%27");
-
+*/
         this.$root.$emit("decklist", this.parsedName);
         this.$root.$on("deckListsGot", () => {
             this.get();
@@ -77,7 +88,7 @@ export default {
     },
 
     methods: {
-        get: function() {
+        get: function () {
             var index = this.$parent.$parent.$parent.$parent.deckNames.indexOf(
                 this.parsedName
             );
@@ -93,8 +104,8 @@ export default {
             this.id = this.response.data.data[0].id;
             this.expansion = this.response.data.data[0].expansion;
 
-            this.cardIDs.forEach(id => {
-                this.cards.forEach(card => {
+            this.cardIDs.forEach((id) => {
+                this.cards.forEach((card) => {
                     if (id == card.id) {
                         this.finalCards.push(card);
                     }
@@ -102,7 +113,7 @@ export default {
             });
 
             this.ready = true;
-        }
-    }
+        },
+    },
 };
 </script>
