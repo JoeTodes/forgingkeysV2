@@ -6015,10 +6015,10 @@ gridsome-plugin-rss@^1.2.0:
   dependencies:
     rss "^1.2.2"
 
-gridsome-plugin-service-worker@^0.2.6:
-  version "0.2.6"
-  resolved "https://registry.yarnpkg.com/gridsome-plugin-service-worker/-/gridsome-plugin-service-worker-0.2.6.tgz#3ebc2d1be3c0327428e9fff05c8bfabcb58f5b15"
-  integrity sha512-JW4hqC220bty2jXYyQSx3CsxlYAxN6vtzROt3VPJJncwPkfaJpzlzkPy3rymbbC9KeNkAi7YvAZy5Dr/7FwF6w==
+gridsome-plugin-service-worker@^0.2.7:
+  version "0.2.7"
+  resolved "https://registry.yarnpkg.com/gridsome-plugin-service-worker/-/gridsome-plugin-service-worker-0.2.7.tgz#d86a98835ed6d1783d65819472135f559916ea45"
+  integrity sha512-cuJxA4AbJ5QICU/PZiH28JiQicnGydq+MoSYevnjo6dABoRkDnHXbh8B2xZfho4EWDbqb4/On7x5CKYCRpQ7xA==
   dependencies:
     "@babel/core" "7.*"
     "@babel/plugin-transform-runtime" "^7.11.0"
